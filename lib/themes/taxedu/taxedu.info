@@ -1,0 +1,52 @@
+name = TaxEdu Theme
+description = TaxEdu subtheme of ec_resp for the Subsite Starterkit.
+core = 7.x
+base theme = ec_resp
+php = "5.6.9"
+
+
+
+
+stylesheets[all][] = "font-awesome/css/font-awesome.css"
+stylesheets[all][] = "cssmap-europe/cssmap-europe.css"
+stylesheets[all][] = "flexslider/flexslider.css"
+stylesheets[all][] = "css/taxedu.css"
+stylesheets[all][] = "css/taxedu-ie.css"
+stylesheets[all][] = "css/taxedu-temp.css"
+stylesheets[all][] = "css/taxedu-plus.css"
+stylesheets[all][] = "css/taxedu-mobile.css"
+stylesheets[all][] = "css/taxedu-tablet.css"
+stylesheets[all][] = "css/taxedu-dragos.css"
+
+scripts[] = "js/custom.js"
+scripts[] = "js/jquery.flexslider-min.js"
+scripts[] = "js/jquery.cssmap.min.js"
+;scripts[] = "js/jquery.useWord.min.js"
+
+regions[header_top] = "Header Top"
+regions[header_right] = "Header Right"
+
+regions[featured] = "Featured"
+regions[banners] = "Banners"
+regions[tools] = "Tools"
+regions[help] = "Help"
+
+regions[sidebar_left] = "Sidebar Left"
+regions[sidebar_right] = "Sidebar Right"
+
+regions[content_top] = "Content Top"
+regions[content] = "Content"
+regions[content_right] = "Content Right"
+regions[content_bottom] = "Content Bottom"
+
+regions[footer_first] = "Footer first"
+regions[footer_middle] = "Footer middle"
+regions[footer_last] = "Footer last"
+regions[footer] = "Footer"
+
+settings[shortcut_module_link] = 0
+
+multisite_version = "2.2"
+
+; Define this theme as multisite base theme (used by multisite_dynamic_basetheme)
+;multisite = "1"

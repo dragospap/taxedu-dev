@@ -1,0 +1,120 @@
+@media (max-width: 991px) and (min-width: 767px) {
+  .region-featured-wrapper {
+    width: 750px !important;
+    padding: 0 !important;
+  }
+  .mobile-user-bar .navbar-header {
+    background: #ffffff !important;
+  }
+  .sidebar-button {
+    border: none;
+    background: #ffffff;
+  }
+  .sidebar-button .icon-bar {
+    background: #000000;
+  }
+  .sidebar-button.sidebar-open .icon-bar {
+    background: #cccccc;
+  }
+  .region-content-bottom {
+    margin: 0;
+    padding: 0;
+    width: 750px !important;
+  }
+  .item-list ul li {
+    float: left;
+    padding: 0px 19px 0 0;
+  }
+  .fa-2x {
+    font-size: 1em;
+  }
+  .sidebar-button.sidebar-open,
+  .sidebar-button:active,
+  .sidebar-button:hover {
+    background: #ffffff;
+  }
+  #responsive-sidebar {
+    z-index: 200;
+  }
+  #path {
+    height: 29px;
+    padding: 4px 0 0 0;
+  }
+  #block-views-taxedu-country-block {
+    width: 33.3% !important;
+    display: table;
+    float: left;
+    margin: 16px 0 0 0;
+    padding: 0;
+    font-size: 15px !important;
+  }
+  #block-views-taxedu-country-block .panel-heading {
+    font-size: 15px !important;
+  }
+  .block-simplenews {
+    width: 39.3% !important;
+    display: table;
+    float: left;
+    margin: -4px -14px 0 -34px;
+  }
+  .block-simplenews .panel-heading {
+    font-size: 15px !important;
+  }
+  .block-simplenews input[type="text"] {
+    width: 217px;
+  }
+  .block-simplenews input[type="submit"] {
+    padding: 0px 43px 0 0;
+  }
+  #block-views-taxedu-social-links-block {
+    width: 33.3% !important;
+    display: table;
+    float: left;
+    margin: -4px 0 0 0;
+    font-size: 15px !important;
+  }
+  #block-views-taxedu-social-links-block .panel-heading {
+    font-size: 15px !important;
+  }
+  .page-teachers-corner .teachers-items {
+    width: 33.3%;
+    height: 295px;
+    display: table;
+    float: left;
+  }
+  .page-teachers-corner .teachers-items img {
+    width: 234px;
+    height: auto;
+    padding: 0px 0 0 15px;
+  }
+  .page-teachers-corner .teachers-items .col-md-4 {
+    width: 100px;
+    display: table;
+  }
+  .page-teachers-corner .teachers-items .col-md-7 {
+    width: 140px;
+    display: table;
+    top: -32px;
+    right: -100px;
+  }
+  .page-teachers-corner h4 {
+    font-size: 16px;
+    color: #000000;
+  }
+  .page-teachers-corner .teachers-items a {
+    font-size: 11px;
+  }
+  .page-teachers-corner .button-box-fullwidth {
+    margin-top: -24px;
+  }
+  .page-teachers-corner .minidescription {
+    height: 75px;
+  }
+  .page-teachers-corner .modal-dialog {
+    width: 600px;
+    margin: 6% 0 0 7%;
+  }
+  .page-home .dots-one {
+    background: url(../images/bg_dots.png) no-repeat -11px 0px;
+  }
+}

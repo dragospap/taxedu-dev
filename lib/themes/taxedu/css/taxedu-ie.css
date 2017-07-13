@@ -1,0 +1,41 @@
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  /* IE10 and IE11-specific styles go here */
+  .tax-evasion h2 {
+    width: 100%;
+  }
+
+  .panel-separator {
+    height: 40px;
+  }
+
+  .tax-evasion-content {
+    padding: 40px 0 0 0;
+  }
+
+  .tax-evasion-content p {
+    padding: 10px 0 0 0 !important;
+  }
+
+  .modal-body {
+    margin-top: 0;
+  }
+
+  .page-young .pane-views-taxedu-what-is-tax-young-block {
+    margin: -70px 0 0 0;
+  }
+
+  .page-young .link-wrapper.right {
+    padding-top: 0px;
+  }
+}
+
+@supports (-ms-ime-align:auto) {
+  /* IE Edge 12+ CSS */
+  .modal-body {
+    margin-top: 0;
+  }
+
+  .page-young .charity_donation .title span {
+    padding: 65px 0 0 0 !important;
+  }
+}

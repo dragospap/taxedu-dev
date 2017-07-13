@@ -1,0 +1,17 @@
+@-moz-document url-prefix() {
+  .page-pages-young .link-wrapper.right {
+    padding: 0 !important;
+  }
+
+  .page-pages-young .container.info-sections {
+    margin-top: 0 !important;
+    margin-bottom: 30px !important;
+  }
+
+  @media (min-width: 768px) {
+    .container.info-sections {
+      margin-top: 0;
+      padding: 0px 0px 30px 0;
+    }
+  }
+}
