@@ -1,7 +1,0 @@
-<?php
-/**
- * @file
- * Code for the taxedu_features feature.
- */
-
-include_once 'taxedu_features.features.inc';
