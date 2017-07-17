@@ -485,7 +485,12 @@ footer h3.h-underline {
   position: relative;
   min-height: 100px;
 }
-
+h2 {
+  position: absolute;
+  top: -57px;
+  /*left: 45%;*/
+  z-index: 3;
+}
 .page-home .info-material h2 {
   color: #fff;
   border-radius: 100%;
@@ -1158,7 +1163,7 @@ span.info-game {
 }
 /*
 .why-should-pay-right {
-	background: #01b6b8 url("../images/why-should-pay-right.png") no-repeat left bottom;
+	background: #01B6B8 url("../images/why-should-pay-right.png") no-repeat left bottom;
 }
 */
 .why-should-pay-right img {
@@ -1682,8 +1687,8 @@ div.arrow-right2 {
   -webkit-column-gap: 40px;
   -moz-column-gap: 40px;
   column-gap: 33px;
-  -webkit-column-rule-style: solid;
-  -moz-column-rule-style: solid;
+  -webkit-column-rule-style: dashed;
+  -moz-column-rule-style: dashed;
   column-rule-style: solid;
   column-rule-width: 1px;
   text-align: left;
@@ -1848,6 +1853,20 @@ div.arrow-right2 {
   z-index: 0;
   width: 640px;
   height: 228px;
+}
+div.arrow-right3 {
+  /* width: 0;
+   height: 0;
+   border-bottom: 115px solid transparent;
+   border-top: 114px solid transparent;
+   border-left: 50px solid #01b6b8;
+   font-size: 0;
+   line-height: 0;
+   position: absolute;
+   top: -51%;
+   right: -118%;
+   z-index: 99999;
+   */
 }
 .right-side {
   position: relative;
@@ -2040,7 +2059,7 @@ div.arrow-right2 {
 }
 /* Popover Header */
 .page-child .popover-title {
-  background-color: #73AD21;
+  background-color: #73ad21;
   color: #ffffff;
   font-size: 28px;
   text-align: center;
@@ -2150,14 +2169,14 @@ div.arrow-right2 {
   color: red;
 }
 #main-menu ul li.last a {
-  background: #EEEFEF;
+  background: #eeefef;
 }
 #main-menu .navbar-nav > li > a.active {
   background: url('../images/menu-border.png') no-repeat;
   background-position: bottom;
 }
 .page-teachers-corner .banner-footer {
-  margin: 0 0 0 30px ;
+  margin: 0 0 0 30px;
   top: 20px;
 }
 .page-teachers-corner .banner1-footer {
@@ -3580,7 +3599,7 @@ footer {
   height: 30px;
   line-height: 30px;
   text-align: right;
-  /* color: #ffffff; */
+  /* color: #FFFFFF; */
   /* margin-left: -15px; */
   margin-top: -25px;
   /* padding-right: 9px; */
@@ -3590,7 +3609,7 @@ footer {
   height: 30px;
   line-height: 30px;
   text-align: right;
-  /* color: #ffffff; */
+  /* color: #FFFFFF; */
   /* margin-left: -15px; */
   margin-top: -49px;
   /* padding-right: 9px; */

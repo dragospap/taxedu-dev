@@ -1,11 +1,11 @@
-; Define this theme as multisite base theme (used by multisite_dynamic_basetheme)
-multisite = "1"
-
 name = TaxEdu Theme
 description = TaxEdu subtheme of ec_resp for the Subsite Starterkit.
 core = 7.x
 base theme = ec_resp
 php = "5.6.9"
+
+
+
 
 stylesheets[all][] = "font-awesome/css/font-awesome.css"
 stylesheets[all][] = "cssmap-europe/cssmap-europe.css"
@@ -13,7 +13,6 @@ stylesheets[all][] = "flexslider/flexslider.css"
 stylesheets[all][] = "css/taxedu.css"
 stylesheets[all][] = "css/taxedu-ie.css"
 stylesheets[all][] = "css/taxedu-temp.css"
-stylesheets[all][] = "css/taxedu-moz.css"
 stylesheets[all][] = "css/taxedu-plus.css"
 stylesheets[all][] = "css/taxedu-mobile.css"
 stylesheets[all][] = "css/taxedu-tablet.css"
@@ -50,4 +49,4 @@ settings[shortcut_module_link] = 0
 multisite_version = "2.2"
 
 ; Define this theme as multisite base theme (used by multisite_dynamic_basetheme)
-multisite = "1"
+;multisite = "1"
